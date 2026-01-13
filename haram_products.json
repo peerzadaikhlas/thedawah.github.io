@@ -1,0 +1,54 @@
+{
+  "haram_ingredients": [
+    "lard",
+    "pork gelatin",
+    "pepsin (porcine)",
+    "carmine (e120)",
+    "bone phosphate (e542)",
+    "ethyl alcohol (intoxicant)",
+    "shellac (e904)",
+    "animal shortening (non-halal)",
+    "rennet (from non-halal sources)",
+    "tallow (non-halal)"
+  ],
+  "haram_products": {
+    "038000311111": {
+      "name": "Kellogg's Pop-Tarts (Frosted)",
+      "reason": "Contains gelatin in the frosting derived from non-halal animal sources."
+    },
+    "016000275344": {
+      "name": "Lucky Charms Cereal",
+      "reason": "Contains marshmallows made with pork-derived gelatin."
+    },
+    "042238300601": {
+      "name": "Haribo Goldbears (Standard EU/US Version)",
+      "reason": "Contains gelatin sourced from pork; note that Haribo also produces specific Halal-certified versions in other regions."
+    }
+  },
+  "halal_ingredients": [
+    "vegetable glycerin",
+    "pectin (plant-based)",
+    "agar-agar",
+    "soy lecithin",
+    "citric acid",
+    "carrageenan",
+    "guar gum",
+    "corn starch",
+    "vegetable oil",
+    "halal-certified bovine gelatin"
+  ],
+  "halal_products": {
+    "857063002543": {
+      "name": "Saffron Road Chicken Biryani",
+      "reason": "Certified Halal by IFANCA; uses hand-slaughtered meat and no prohibited additives."
+    },
+    "028400040112": {
+      "name": "Lay's Classic Potato Chips",
+      "reason": "Uses plant-based oils and contains no animal-derived enzymes or fats."
+    },
+    "072481001016": {
+      "name": "Crescent Foods Whole Chicken",
+      "reason": "Certified Halal; processed according to Islamic Zabiha standards."
+    }
+  }
+}
