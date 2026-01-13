@@ -1,15 +1,24 @@
 {
-  "haram_ingredients": ["pork", "lard", "gelatin", "alcohol", "carmine", "e120"],
-  "halal_ingredients": ["vegetable oil", "soy lecithin", "citric acid", "dates"],
+  "haram_ingredients": [
+    "pork", "lard", "gelatin", "alcohol", "carmine", "e120", "e441", "e542", "e904", "bacon", 
+    "ham", "pepsin", "tallow", "shortening (animal)", "rum", "ethyl alcohol", "wine", 
+    "l-cysteine (from human hair)", "civet", "castoreum", "ambergris"
+  ],
+  "halal_ingredients": [
+    "vegetable oil", "soy lecithin", "citric acid", "dates", "pectin", "agar agar", "guar gum", 
+    "xanthan gum", "tapioca", "cassava", "sea salt", "honey", "e300", "e322", "e330", "e406", 
+    "e412", "e415", "e440", "ascorbic acid", "yeast", "modified starch", "rice flour"
+  ],
   "barcodes": {
-    "1234567890123": {
-      "name": "Local Product 1",
-      "status": "halal"
-    },
-    "9876543210987": {
-      "name": "Local Product 2",
-      "status": "haram",
-      "reason": "Uses non-zabiha animal fat"
-    }
+    "7622210449283": { "name": "Oreo Original", "status": "halal" },
+    "0028400003112": { "name": "Cheetos Crunchy", "status": "haram", "reason": "Non-zabiha enzymes" },
+    "041331021430": { "name": "Haribo Goldbears (DE)", "status": "haram", "reason": "Porcine Gelatin" },
+    "8690624103129": { "name": "Haribo Goldbears (TR)", "status": "halal" },
+    "5000159461122": { "name": "Snickers Bar", "status": "halal" },
+    "3068320011508": { "name": "Evian Water", "status": "halal" },
+    "000000004902": { "name": "Coca-Cola 330ml", "status": "halal" },
+    "8690504033331": { "name": "Ulker Biskrem", "status": "halal" },
+    "021000612239": { "name": "Kraft Mac & Cheese", "status": "haram", "reason": "Animal Rennet" },
+    "7613034932338": { "name": "Maggi Noodles", "status": "halal" }
   }
 }
