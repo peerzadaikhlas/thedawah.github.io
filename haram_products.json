@@ -1,6 +1,6 @@
 {
-  "haram_by_animal": {
-    "pig": [
+  "haram_ingredients": [
+      "pig":,
       "pork",
       "bacon",
       "ham",
