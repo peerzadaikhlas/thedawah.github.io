@@ -2,93 +2,181 @@
   "haram_ingredients": [
     "lard (pig fat)",
     "pork gelatin",
+    "porcine collagen",
     "pepsin (porcine)",
+    "trypsin (porcine)",
     "carmine (e120 / cochineal)",
     "ethyl alcohol / ethanol (as an intoxicant)",
+    "methanol",
+    "isopropyl alcohol",
     "confectioner's glaze (shellac / e904)",
     "bone phosphate (e542)",
     "animal shortening (non-halal)",
     "tallow (beef fat from non-zabiha cattle)",
-    "l-cysteine (if derived from human hair or non-halal feathers)",
+    "l-cysteine (e920) from human hair or non-halal feathers",
     "rennet (from non-halal slaughtered calves)",
+    "animal lipase (non-halal)",
+    "animal glycerides (non-halal source)",
     "castoreum (beaver secretion)",
     "ambergris (whale secretion)",
+    "civet (animal secretion)",
     "non-halal animal enzymes",
-    "wine vinegar (if not fully transformed or contains alcohol residues)"
+    "wine vinegar (if not fully transformed)",
+    "cooking wine",
+    "mirin",
+    "rice wine",
+    "beer yeast residue",
+    "fish gelatin from non-halal processing",
+    "blood plasma protein",
+    "hemoglobin powder",
+    "hydrolyzed animal protein (HAP)",
+    "shortening (unspecified animal source)",
+    "animal broth (non-halal)",
+    "meat extract (non-zabiha)",
+    "gelatin capsules (porcine)",
+    "animal stearic acid (non-halal)",
+    "lanolin alcohols (if ingested)",
+    "cheese made with animal rennet (non-halal)"
   ],
+
   "haram_products": {
     "038000311111": {
       "name": "Kellogg's Pop-Tarts (Frosted)",
-      "reason": "The frosting contains gelatin derived from pork."
+      "reason": "Frosting contains pork-derived gelatin."
     },
     "016000275344": {
       "name": "Lucky Charms Cereal",
-      "reason": "Contains marshmallows made with porcine gelatin."
+      "reason": "Marshmallows contain porcine gelatin."
     },
     "042238300601": {
       "name": "Haribo Goldbears (Standard US/UK)",
-      "reason": "Standard retail versions in the West typically use pork gelatin."
+      "reason": "Uses pork gelatin in standard versions."
     },
     "073576611500": {
-      "name": "Altoids Mints (Peppermint)",
-      "reason": "Contains gelatin to maintain texture."
+      "name": "Altoids Mints",
+      "reason": "Contains gelatin for texture stability."
     },
     "05000159461122": {
-      "name": "Mars/Snickers Bars (Specific Regions)",
-      "reason": "May contain whey processed with non-halal animal rennet in some markets."
+      "name": "Mars / Snickers (Certain Regions)",
+      "reason": "May use non-halal rennet or animal-derived emulsifiers."
     },
     "011110038364": {
-      "name": "Rice Krispies Treats (Pre-packaged)",
-      "reason": "Contains pork-derived gelatin in the marshmallow binder."
+      "name": "Rice Krispies Treats",
+      "reason": "Marshmallow binder contains pork gelatin."
+    },
+    "041196910002": {
+      "name": "Jell-O Gelatin Desserts",
+      "reason": "Made from pork or non-halal beef gelatin."
+    },
+    "028400095433": {
+      "name": "Skittles (Older US Formula)",
+      "reason": "Contained gelatin from animal sources."
+    },
+    "021000658688": {
+      "name": "Planters Cheese Balls",
+      "reason": "Uses cheese enzymes from non-halal sources."
+    },
+    "04963406": {
+      "name": "Kinder Surprise (Certain Batches)",
+      "reason": "Milk derivatives processed with animal rennet."
     }
   },
+
   "halal_ingredients": [
     "vegetable glycerin (e422)",
-    "pectin (e440 - fruit based)",
-    "agar-agar (seaweed based)",
+    "pectin (e440)",
+    "agar-agar",
     "soy lecithin (e322)",
+    "sunflower lecithin",
     "guar gum (e412)",
     "xanthan gum (e415)",
     "carrageenan (e407)",
     "citric acid (e330)",
+    "malic acid (e296)",
+    "lactic acid (plant or microbial)",
     "halal-certified bovine gelatin",
-    "halal-certified microbial rennet",
+    "fish gelatin (halal-certified)",
+    "halal microbial rennet",
     "modified corn starch",
     "tapioca starch",
+    "potato starch",
     "vegetable mono- and diglycerides",
-    "synthetic food colors (e.g., e129 Allura Red)",
-    "apple cider vinegar"
+    "synthetic food colors (e102, e110, e129)",
+    "apple cider vinegar",
+    "white distilled vinegar",
+    "baking soda",
+    "baking powder",
+    "yeast (non-alcoholic)",
+    "cocoa powder",
+    "natural cocoa butter",
+    "plant-based enzymes",
+    "sea salt",
+    "rock salt",
+    "date syrup",
+    "honey",
+    "maple syrup"
   ],
+
   "halal_products": {
     "857063002543": {
       "name": "Saffron Road Chicken Biryani",
-      "reason": "Certified Halal by IFANCA; uses Zabiha meat."
+      "reason": "IFANCA certified halal, Zabiha meat."
     },
     "028400040112": {
       "name": "Lay's Classic Potato Chips",
-      "reason": "Contains only potatoes, vegetable oil, and salt."
+      "reason": "Only potatoes, vegetable oil, and salt."
     },
     "072481001016": {
       "name": "Crescent Foods Whole Chicken",
-      "reason": "HMA/IFANCA certified hand-slaughtered Zabiha poultry."
+      "reason": "HMA/IFANCA certified halal poultry."
     },
     "014100044208": {
       "name": "Pepperidge Farm Goldfish (Original)",
-      "reason": "Uses microbial rennet for the cheese flavor (check labels for regional changes)."
+      "reason": "Uses microbial rennet (label verification required)."
     },
     "021000612239": {
-      "name": "Kraft Macaroni & Cheese (With Microbial Rennet)",
-      "reason": "Selected boxes use enzymes not derived from animals (check 'Enzymes' source)."
+      "name": "Kraft Mac & Cheese (Microbial Rennet)",
+      "reason": "Some boxes use non-animal enzymes."
+    },
+    "070640001523": {
+      "name": "Zabiha Halal Beef Burgers",
+      "reason": "Certified halal beef."
+    },
+    "784672123450": {
+      "name": "Midamar Halal Beef Franks",
+      "reason": "USDA & halal certified."
+    },
+    "6291006021234": {
+      "name": "Al Islami Chicken Nuggets",
+      "reason": "Halal certified meat and ingredients."
+    },
+    "896400015321": {
+      "name": "National Foods Chicken Masala",
+      "reason": "Contains no animal-derived additives."
     }
   },
+
   "mashbooh_ingredients": [
-    "whey (source of rennet unknown)",
-    "vanilla extract (due to alcohol content)",
-    "natural flavors (can be animal or plant based)",
-    "mono- and diglycerides (can be animal or vegetable)",
+    "whey (rennet source unknown)",
+    "casein",
+    "vanilla extract",
+    "natural flavors",
+    "artificial flavors (unspecified carrier)",
+    "mono- and diglycerides",
     "diglycerides",
     "magnesium stearate",
+    "calcium stearate",
     "polysorbates (60, 65, 80)",
-    "vitamin d3 (can be from lanolin/sheep wool)"
+    "vitamin d3 (lanolin-based)",
+    "vitamin a palmitate",
+    "niacinamide",
+    "glycerin (unspecified source)",
+    "shortening",
+    "emulsifiers",
+    "enzymes",
+    "lecithin (non-specified source)",
+    "fatty acids",
+    "stearic acid",
+    "flavor enhancers"
   ]
 }
