@@ -1,19 +1,214 @@
 {
   "haram_ingredients": [
-    "gelatin", 
-    "lard", 
-    "pork", 
-    "alcohol", 
-    "wine", 
-    "e120", 
-    "carmine", 
-    "whey", 
-    "pepsin"
+    "gelatin",
+    "pork",
+    "lard",
+    "pig fat",
+    "bacon",
+    "ham",
+    "prosciutto",
+    "salami (pork)",
+    "pepperoni (pork)",
+    "alcohol",
+    "ethanol",
+    "ethyl alcohol",
+    "wine",
+    "beer",
+    "rum",
+    "vodka",
+    "whiskey",
+    "brandy",
+    "liqueur",
+    "cooking wine",
+    "rice wine",
+    "mirin",
+    "sake",
+    "e120",
+    "carmine",
+    "cochineal",
+    "shellac",
+    "e904",
+    "pepsin",
+    "rennet (animal)",
+    "animal rennet",
+    "porcine rennet",
+    "non-halal rennet",
+    "whey (animal rennet)",
+    "casein (animal source)",
+    "animal shortening",
+    "animal fat",
+    "tallow",
+    "suet",
+    "bone phosphate",
+    "e542",
+    "bone char",
+    "isopropyl alcohol",
+    "methanol",
+    "denatured alcohol",
+    "vanilla extract (alcohol)",
+    "yeast extract (alcohol derived)",
+    "fermented rice extract",
+    "fermented grape extract",
+    "confectioner's glaze",
+    "l-cysteine (animal)",
+    "e920",
+    "e921",
+    "mono and diglycerides (animal)",
+    "e471 (animal source)",
+    "e472 (animal source)",
+    "fatty acids (animal)",
+    "glycerin (animal)",
+    "glycerol (animal)",
+    "e422 (animal)",
+    "lecithin (animal)",
+    "e322 (animal)",
+    "collagen (animal)",
+    "elastin",
+    "blood plasma",
+    "hemoglobin powder",
+    "meat extract (non-halal)",
+    "meat flavoring",
+    "chicken powder (non-zabiha)",
+    "beef powder (non-zabiha)",
+    "fish gelatin (non-halal process)",
+    "shortening (animal)",
+    "emulsifier (animal)",
+    "enzyme (animal)",
+    "lipase (animal)",
+    "protease (animal)",
+    "trypsin",
+    "pancreatin",
+    "lactose (animal rennet)",
+    "cream liqueur",
+    "rum flavor",
+    "brandy flavor",
+    "beer yeast",
+    "wine vinegar (from wine)",
+    "cider vinegar (alcohol origin)",
+    "mead",
+    "kombucha (alcoholic)",
+    "fermented soy (alcohol)",
+    "fermented malt extract",
+    "malt wine",
+    "malt beer extract",
+    "pork collagen",
+    "pork gelatin capsules",
+    "softgel capsules (porcine)",
+    "marshmallow gelatin",
+    "gummy gelatin",
+    "dessert gelatin",
+    "custard mix (animal)",
+    "ice cream emulsifier (animal)",
+    "cheese (animal rennet)",
+    "blue cheese (animal enzymes)",
+    "parmesan (animal rennet)",
+    "non-halal mozzarella",
+    "non-halal cheddar",
+    "non-halal paneer enzyme",
+    "lard oil",
+    "pig oil",
+    "animal broth",
+    "stock (non-halal)",
+    "bone broth (non-zabiha)",
+    "gravy (animal fat)",
+    "soup base (non-halal)",
+    "flavor enhancer (animal)",
+    "natural flavor (animal)",
+    "castoreum",
+    "civet",
+    "ambergris",
+    "frog extract",
+    "snake extract",
+    "insect extract",
+    "crushed insects",
+    "silkworm extract",
+    "bee larvae",
+    "e441 (gelatin)",
+    "e1105 (lysozyme animal)",
+    "e631 (animal source)",
+    "e635 (animal source)"
   ],
+
   "haram_products": {
     "6902890267027": {
       "name": "Specific Haram Snack",
       "reason": "Contains non-zabiha beef"
+    },
+    "8901030899991": {
+      "name": "Gelatin Candy",
+      "reason": "Contains pork gelatin"
+    },
+    "8901063012345": {
+      "name": "Marshmallow Treat",
+      "reason": "Gelatin from animal source"
+    },
+    "8901122334455": {
+      "name": "Chocolate Liqueur",
+      "reason": "Contains alcohol"
+    },
+    "8909988776655": {
+      "name": "Vanilla Essence",
+      "reason": "Alcohol-based extract"
+    },
+    "6901234567890": {
+      "name": "Cheese Spread",
+      "reason": "Made with animal rennet"
+    },
+    "5000159484695": {
+      "name": "Gummy Bears",
+      "reason": "Porcine gelatin"
+    },
+    "4001686321057": {
+      "name": "Wine Vinegar",
+      "reason": "Derived from wine"
+    },
+    "8901764023456": {
+      "name": "Instant Noodles",
+      "reason": "Non-halal chicken flavoring"
+    },
+    "8901444022222": {
+      "name": "Cup Soup",
+      "reason": "Contains meat extract (non-halal)"
+    },
+    "8906001122334": {
+      "name": "Cream Biscuit",
+      "reason": "Emulsifier from animal fat"
+    },
+    "8904004400123": {
+      "name": "Ice Cream",
+      "reason": "Animal-derived emulsifiers"
+    },
+    "8901719100011": {
+      "name": "Chocolate Mousse",
+      "reason": "Gelatin used as stabilizer"
+    },
+    "7622210449283": {
+      "name": "Milk Chocolate Bar",
+      "reason": "Contains alcohol flavoring"
+    },
+    "8000500310427": {
+      "name": "Ferrero-style Praline",
+      "reason": "Alcohol-based flavor"
+    },
+    "8901058899001": {
+      "name": "Flavored Yogurt",
+      "reason": "Gelatin stabilizer"
+    },
+    "8901552001122": {
+      "name": "Protein Bar",
+      "reason": "Collagen from animal source"
+    },
+    "8906012345678": {
+      "name": "Energy Drink",
+      "reason": "Fermented alcohol traces"
+    },
+    "8906009876543": {
+      "name": "Cake Mix",
+      "reason": "Contains animal shortening"
+    },
+    "8901773009999": {
+      "name": "Ready Gravy",
+      "reason": "Non-halal beef stock"
     }
   }
 }
