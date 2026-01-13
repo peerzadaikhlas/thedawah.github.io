@@ -1,54 +1,94 @@
 {
   "haram_ingredients": [
-    "lard",
+    "lard (pig fat)",
     "pork gelatin",
     "pepsin (porcine)",
-    "carmine (e120)",
+    "carmine (e120 / cochineal)",
+    "ethyl alcohol / ethanol (as an intoxicant)",
+    "confectioner's glaze (shellac / e904)",
     "bone phosphate (e542)",
-    "ethyl alcohol (intoxicant)",
-    "shellac (e904)",
     "animal shortening (non-halal)",
-    "rennet (from non-halal sources)",
-    "tallow (non-halal)"
+    "tallow (beef fat from non-zabiha cattle)",
+    "l-cysteine (if derived from human hair or non-halal feathers)",
+    "rennet (from non-halal slaughtered calves)",
+    "castoreum (beaver secretion)",
+    "ambergris (whale secretion)",
+    "non-halal animal enzymes",
+    "wine vinegar (if not fully transformed or contains alcohol residues)"
   ],
   "haram_products": {
     "038000311111": {
       "name": "Kellogg's Pop-Tarts (Frosted)",
-      "reason": "Contains gelatin in the frosting derived from non-halal animal sources."
+      "reason": "The frosting contains gelatin derived from pork."
     },
     "016000275344": {
       "name": "Lucky Charms Cereal",
-      "reason": "Contains marshmallows made with pork-derived gelatin."
+      "reason": "Contains marshmallows made with porcine gelatin."
     },
     "042238300601": {
-      "name": "Haribo Goldbears (Standard EU/US Version)",
-      "reason": "Contains gelatin sourced from pork; note that Haribo also produces specific Halal-certified versions in other regions."
+      "name": "Haribo Goldbears (Standard US/UK)",
+      "reason": "Standard retail versions in the West typically use pork gelatin."
+    },
+    "073576611500": {
+      "name": "Altoids Mints (Peppermint)",
+      "reason": "Contains gelatin to maintain texture."
+    },
+    "05000159461122": {
+      "name": "Mars/Snickers Bars (Specific Regions)",
+      "reason": "May contain whey processed with non-halal animal rennet in some markets."
+    },
+    "011110038364": {
+      "name": "Rice Krispies Treats (Pre-packaged)",
+      "reason": "Contains pork-derived gelatin in the marshmallow binder."
     }
   },
   "halal_ingredients": [
-    "vegetable glycerin",
-    "pectin (plant-based)",
-    "agar-agar",
-    "soy lecithin",
-    "citric acid",
-    "carrageenan",
-    "guar gum",
-    "corn starch",
-    "vegetable oil",
-    "halal-certified bovine gelatin"
+    "vegetable glycerin (e422)",
+    "pectin (e440 - fruit based)",
+    "agar-agar (seaweed based)",
+    "soy lecithin (e322)",
+    "guar gum (e412)",
+    "xanthan gum (e415)",
+    "carrageenan (e407)",
+    "citric acid (e330)",
+    "halal-certified bovine gelatin",
+    "halal-certified microbial rennet",
+    "modified corn starch",
+    "tapioca starch",
+    "vegetable mono- and diglycerides",
+    "synthetic food colors (e.g., e129 Allura Red)",
+    "apple cider vinegar"
   ],
   "halal_products": {
     "857063002543": {
       "name": "Saffron Road Chicken Biryani",
-      "reason": "Certified Halal by IFANCA; uses hand-slaughtered meat and no prohibited additives."
+      "reason": "Certified Halal by IFANCA; uses Zabiha meat."
     },
     "028400040112": {
       "name": "Lay's Classic Potato Chips",
-      "reason": "Uses plant-based oils and contains no animal-derived enzymes or fats."
+      "reason": "Contains only potatoes, vegetable oil, and salt."
     },
     "072481001016": {
       "name": "Crescent Foods Whole Chicken",
-      "reason": "Certified Halal; processed according to Islamic Zabiha standards."
+      "reason": "HMA/IFANCA certified hand-slaughtered Zabiha poultry."
+    },
+    "014100044208": {
+      "name": "Pepperidge Farm Goldfish (Original)",
+      "reason": "Uses microbial rennet for the cheese flavor (check labels for regional changes)."
+    },
+    "021000612239": {
+      "name": "Kraft Macaroni & Cheese (With Microbial Rennet)",
+      "reason": "Selected boxes use enzymes not derived from animals (check 'Enzymes' source)."
     }
-  }
+  },
+  "mashbooh_ingredients": [
+    "whey (source of rennet unknown)",
+    "vanilla extract (due to alcohol content)",
+    "natural flavors (can be animal or plant based)",
+    "mono- and diglycerides (can be animal or vegetable)",
+    "diglycerides",
+    "magnesium stearate",
+    "polysorbates (60, 65, 80)",
+    "vitamin d3 (can be from lanolin/sheep wool)"
+  ]
 }
